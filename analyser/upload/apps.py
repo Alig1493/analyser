@@ -6,4 +6,3 @@ class UploadConfig(AppConfig):
 
     def ready(self):
         from .signals import (post_save_input_file)
-
